@@ -1,0 +1,65 @@
+/* style navbar */
+/* .nav-link {
+  font-weight: 500;
+} */
+.navbar-brand,
+.lg {
+    font-family: "Viga", sans-serif;
+    width: fit-content;
+    border-radius: 7px;
+}
+
+.navbar {
+    background-color: #0369b6;
+}
+
+/* style detail berita */
+.jdl {
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.tgl {
+    color: #636363;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.gbr {
+    margin-top: 30px;
+}
+
+.desc {
+    padding-top: 40px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+/* style footer */
+footer {
+    background-color: #092f3c;
+    color: white;
+    height: 550px;
+}
+
+.fa-brands {
+    margin-top: 20px;
+    margin-right: 15px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.fa-brands:hover {
+    color: #000000;
+}
+
+/* CSS DESKTOP VERSION */
+@media (min-width: 992px) {
+
+    /* style footer */
+    footer {
+        background-color: #092f3c;
+        color: white;
+        height: 400px;
+    }
+}

@@ -1,0 +1,305 @@
+body {
+    font-family: "Nunito", sans-serif !important;
+}
+
+/* style navbar */
+.lg {
+    width: fit-content;
+    border-radius: 7px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.lg:hover {
+    background-color: #25d366;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    background-color: #0369b6;
+}
+
+/* style carousel */
+.banner .carousel-item img {
+    width: 100%;
+    height: 335px;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(30%);
+}
+
+.banner .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 20px 30px;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.25);
+    /* efek layer transparan */
+    border-radius: 15px;
+}
+
+.banner .carousel-caption h1 {
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner .carousel-caption p {
+    font-size: 8px;
+    max-width: 700px;
+    line-height: 1.5;
+}
+
+/* tentang kami */
+.jdl-abt {
+    margin-top: 15px;
+}
+
+.rw1 {
+    padding-top: 20px;
+}
+
+.rw2 {
+    padding-bottom: 30px;
+}
+
+.tentang iframe {
+    height: 250px;
+}
+
+/* Css Layanan */
+.layanan .card-title {
+    font-weight: 900;
+}
+
+.layanan .card-text {
+    font-weight: 500;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.layanan .card {
+    border-radius: 15px;
+    margin: 0.5em;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.layanan .card img {
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.layanan .carousel-inner {
+    padding: 1em;
+}
+
+.layanan .img-wrapper {
+    max-width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.layanan .carousel-control-prev,
+.layanan .carousel-control-next {
+    width: 6vh;
+    height: 6vh;
+    background-color: #000000;
+    border-radius: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+}
+
+.layanan .carousel-control-prev:hover,
+.layanan .carousel-control-next:hover {
+    opacity: 0.8;
+}
+
+/* Css Layanan For Tab Version */
+@media screen and (min-width: 576px) {
+    .layanan .carousel-inner {
+        display: flex;
+    }
+
+    .layanan .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100% / 3);
+    }
+
+    .layanan .img-wrapper {
+        height: fit-content;
+    }
+}
+
+/* Card Pertanyaan (FaQ) */
+.FaQ .accordion-button {
+    background-color: #fff;
+    color: #0369b6;
+    font-weight: 750;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.FaQ .accordion-button:not(.collapsed) {
+    background-color: #0369b6;
+    color: #fff;
+}
+
+.FaQ .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FaQ .accordion-body {
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-left: 4px solid #0369b6;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 5px 5px;
+}
+
+.FaQ .accordion-button::after {
+    font-size: 1.2rem;
+    color: #0369b6;
+}
+
+.FaQ .accordion-button.collapsed::after {
+    color: #fff;
+}
+
+/* style footer */
+footer {
+    background-color: #092f3c;
+    color: white;
+    height: 550px;
+}
+
+footer .fa-brands {
+    margin-top: 20px;
+    margin-right: 15px;
+    font-size: 28px;
+    color: #fff;
+}
+
+footer .fa-brands:hover {
+    color: #000000;
+}
+
+/* ------------------------------------------------------------------ */
+/* CSS DESKTOP VERSION */
+@media (min-width: 992px) {
+
+    /* style carousel */
+    .banner .carousel-item img {
+        height: 639px;
+    }
+
+    .banner .carousel-caption {
+        text-align: justify;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: fit-content;
+        margin: 0 auto;
+        padding: 20px 30px;
+    }
+
+    .banner .carousel-caption h1 {
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 1000px;
+    }
+
+    .banner .carousel-caption p {
+        font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 1000px;
+    }
+
+    /* tentang kami */
+    .jdl-abt {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    .des-abt {
+        font-size: 20px;
+    }
+
+    .rw1 {
+        padding-top: 70px;
+    }
+
+    .td1 {
+        padding-left: 50px;
+    }
+
+    .jdlabt2 {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    .desabt2 {
+        font-size: 20px;
+    }
+
+    .rw2 {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    .td2 {
+        padding-right: 50px;
+    }
+
+    .tentang iframe {
+        height: 450px;
+    }
+
+    /* Card Layanan */
+    .layanan .l {
+        height: 470px;
+    }
+
+    .layanan .gmbrl {
+        width: 200px;
+        margin-left: 100px;
+    }
+
+    .layanan .card-text {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* card pertanyaan */
+    .f {
+        height: 200px;
+    }
+
+    /* style footer */
+    footer {
+        background-color: #092f3c;
+        color: white;
+        height: 400px;
+    }
+}

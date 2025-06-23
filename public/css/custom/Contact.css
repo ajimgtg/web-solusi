@@ -1,0 +1,96 @@
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+/* style navbar */
+.lg {
+    width: fit-content;
+    border-radius: 7px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.lg:hover {
+    background-color: #25d366;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    background-color: #0369b6;
+}
+
+/* style jumbotron */
+.jumbotron {
+    background: rgba(0, 0, 0, 0.7) url(../../img/custom/jmbtrn.png);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    height: 335px;
+    color: white;
+}
+
+.display-4 {
+    padding-top: 140px;
+    font-weight: 750;
+}
+
+/* style card contact */
+.card-title {
+    font-weight: bold;
+}
+
+/* style maps */
+iframe {
+    margin-top: 20px;
+}
+
+/* style footer */
+footer {
+    background-color: #092f3c;
+    color: white;
+    height: 550px;
+}
+
+footer .fa-brands {
+    margin-top: 20px;
+    margin-right: 15px;
+    font-size: 28px;
+    color: #fff;
+}
+
+footer .fa-brands:hover {
+    color: #000000;
+}
+
+/* ------------------------------------------------- */
+/* CSS DESKTOP VERSION */
+@media (min-width: 992px) {
+
+    /* style jumbotron */
+    .jumbotron {
+        background: rgba(0, 0, 0, 0.7) url(../../img/custom/jmbtrn.png);
+        background-blend-mode: darken;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        color: white;
+    }
+
+    .display-4 {
+        padding-top: 200px;
+        font-weight: 750;
+    }
+
+    /* style maps */
+    iframe {
+        margin-top: 0px;
+    }
+
+    /* style footer */
+    footer {
+        background-color: #092f3c;
+        color: white;
+        height: 400px;
+    }
+}

@@ -1,0 +1,79 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --grey-white: #ccc;
+    --primary: #F43B22;
+    --light-primary: #FFDEDA;
+    --light-primary2: #fff9f8;
+    --text-primary: #333;
+    --text-secondary: #777;
+    --text-third: #999;
+    --text-muted: #919191;
+    }
+
+    body {
+        font-family: 'Poppins';
+        background: linear-gradient(to right, #f8f9fa, #e0e0e0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .login-container {
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .header-text {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .header-text h2 {
+        font-size: 20px;
+    }
+
+    .form-label {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .form-control {
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+    .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: var(--primary);
+    outline: 0;
+    box-shadow: 0 0 0 2.00px var(--light-primary);
+    }
+
+    .btn-primary {
+        background: var(--primary);
+        border: none;
+        transition: 0.3s;
+        font-family: 'Poppins';
+    }
+
+    .btn-primary:hover {
+        background: #d12f1b;
+    }
+
+    .btn-primary:active {
+        background-color: #d12f1b !important;
+    }
+
+    .forgot-password {
+        text-align: right;
+        font-size: 12px;
+    }
