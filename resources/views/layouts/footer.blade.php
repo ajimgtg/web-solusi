@@ -9,7 +9,7 @@
             <div class="row" style="padding-top: 50px">
                 <div class="col-xl-6">
                     <h5 style="font-weight: bold">Supported by UPN "Veteran" Jawa Timur</h5>
-                    <p>Lab Insyde Profesional berfokus memberikan sarana dan prasarana untuk mahasiswa Fakultas Ilmu
+                    <p>Lab Solusi Profesional berfokus memberikan sarana dan prasarana untuk mahasiswa Fakultas Ilmu
                         Komputer.</p>
                 </div>
                 <div class="col"></div>

@@ -8,8 +8,8 @@
 @section('content')
     <!-- Jumbotron -->
     <section class="jumbotron text-center" style="margin-top: 56px">
-        <h1 class="display-4">Pimpinan Fakultas</h1>
-        <p class="desc-jumb">Pimpinan Fakultas Ilmu Komputer UPN "Veteran" Jawa Timur</p>
+        <h1 class="display-4">Anggota Lab Solusi</h1>
+        <p class="desc-jumb">Sistem Informasi - Fakultas Ilmu Komputer - UPN "Veteran" Jawa Timur</p>
     </section>
     <!-- Akhir Jumbotron -->
 

@@ -11,8 +11,9 @@ class AboutUsController extends Controller
      * **Frontend** - Tampilkan About Us untuk pengunjung.
      */
 
-    public function show()
+    public function show(request $request)
     {
+        // return $request;
         $aboutUs = AboutUs::first(); // Ambil data pertama dari tabel
         return view('aboutus', compact('aboutUs'));
     }

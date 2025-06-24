@@ -20,10 +20,19 @@
                         href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false"> Profil </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item {{ Route::is('aboutus.public') ? 'active' : '' }}"
-                                href="{{ route('aboutus.public') }}">Tentang Kami</a></li>
-                        <li><a class="dropdown-item {{ Route::is('pimpinan.public') ? 'active' : '' }}"
-                                href="{{ route('pimpinan.public') }}">Anggota LAB</a></li>
+                        <form action="get">
+                            @csrf
+                            <input type="hidden" name="id" value="1">
+                            <li><a class="dropdown-item {{ Route::is('aboutus.public') ? 'active' : '' }}"
+                                    href="{{ route('aboutus.public') }}">Lab SSI</a></li>
+                        </form>
+                        <!-- <form action="get">
+                            @csrf -->
+                            
+                            <!-- <input type="hidden" name="id" value="2"> -->
+                            <li><a class="dropdown-item {{ Route::is('aboutus.public') ? 'active' : '' }}"
+                                    href="{{ route('aboutus.public') }}">Lab MSI</a></li>
+                        <!-- </form> -->
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -31,6 +40,8 @@
                         href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false"> Layanan </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item {{ Route::is('pelatihan') ? 'active' : '' }}"
+                                href="{{ route('pelatihan') }}">SOP Lab</a></li>
                         <li><a class="dropdown-item {{ Route::is('konsultasi') ? 'active' : '' }}"
                                 href="{{ route('konsultasi') }}">Konsultasi TI</a></li>
                         <li><a class="dropdown-item {{ Route::is('sewa-lab') ? 'active' : '' }}"

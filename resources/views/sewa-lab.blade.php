@@ -81,8 +81,25 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputHari" class="form-label">Hari Sewa LAB</label>
-                            <input type="text" class="form-control" id="exampleInputHari" name="hari"
-                                placeholder="Senin - Jum'at" required />
+                            <!-- <input type="text" class="form-control" id="exampleInputHari" name="hari"
+                                placeholder="Senin - Jum'at" required /> -->
+                                <select>
+                                <option value="Senin">
+                                    Senin
+                                </option>
+                                <option value="Selasa">
+                                    Selasa
+                                </option>
+                                <option value="Rabu">
+                                    Rabu
+                                </option>
+                                <option value="Kamis">
+                                    Kamis
+                                </option>
+                                <option value="Jum'at">
+                                    Jum'at
+                                </option>
+</select>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputTanggal" class="form-label">Tanggal Sewa LAB</label>
@@ -96,8 +113,13 @@
                         <div class="mb-3">
                             <label for="exampleInputJamBerakhir" class="form-label">Jam Berakhir Sewa LAB (08.00-16.00)</label>
                             <input type="time" class="form-control" id="exampleInputJamBerakhir" name="jam_berakhir"
-                                required />
+                            required />
                         </div>
+                        <div class="mb-3">
+                            <label for="requirement" class="form-label">Requirement</label>
+                            <input for="requirement" class="form-control" type="textarea" name="requirement" placeholder="Kebutuhan">
+                        </div>
+                        
                         <button type="submit" class="btn btn-danger">Kirim</button>
                     </form>
                 </div>
